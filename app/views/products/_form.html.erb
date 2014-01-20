@@ -1,0 +1,21 @@
+<%= form_for @product do |f| %>
+<div>
+  Product Name:
+</div>
+<div>
+  <%= f.text_field :name %>
+</div>
+
+<div>
+  Product Description
+</div>
+
+<div>
+  <%= f.text_area :desc %>
+</div>
+
+<div>
+  <%= f.submit %>
+</div>
+
+<% end %>
